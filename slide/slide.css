@@ -1,0 +1,43 @@
+.container {
+  width: 470px;
+  margin: 0 auto;
+}
+
+.slides {
+  width: 470px;
+  height: 470px;
+  overflow: hidden;
+}
+
+.feed1_image {
+  position: relative;
+  display: flex;
+  height: 470px;
+}
+
+.feed1_image > img {
+  width: 470px;
+  height: 470px;
+}
+
+button,
+button:active,
+button:focus {
+  width: 180px;
+  height: 25px;
+  background-color: red;
+  outline: none;
+  border: none;
+}
+
+button:disabled {
+  background-color: gainsboro;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}
